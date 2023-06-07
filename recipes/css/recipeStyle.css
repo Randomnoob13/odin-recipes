@@ -6,8 +6,15 @@
 body{
   font-size: 16px;
   margin: 0;  
-  background-color: rgb(92, 90, 90);
+  background-color: rgb(149, 140, 140);
+  font-family: minecraft, 'Times New Roman', Times, serif;
 }
+
+@font-face {
+    font-family: minecraft;
+       src: url(/fonts/minecraft-font/MinecraftBold-nMK1.otf);
+   }
+   
 
 
 /* GRID */ 
@@ -37,6 +44,13 @@ width: 100%;
 .col-1 div{
     display: inline-block;
     position: absolute;
+
+}
+
+.col-1 a{
+    
+    text-decoration: none;
+    
 }
 
 .col-1 #middle{
@@ -73,11 +87,11 @@ left: 47.5%;
 .row-35{
     height: 35%;
     width: 100%;
-    border: 1px solid black;
+   
     
 }
 
-#beschreibung p , h2 {
+#beschreibung p , h2  {
     margin: 0;
 }
 
@@ -106,14 +120,17 @@ left: 47.5%;
 .col-3{
     height: 100%;
 
-    border: 1px solid black;
+    border: 2px solid black;
     width: 30%;
     float: left;
    bottom: 0;
-    padding: 5%;
+    
+    text-align: justify;
 }
 
-
+.col-3 , h3{
+    margin: 0;
+}
 
 .marginDiv{
     margin-left: 5%;
@@ -126,6 +143,13 @@ left: 47.5%;
 
 /* a */
 
+a{
+    color: black;
+}
+
+a:hover{
+    color: grey;
+}
 
 
 /* RESPONSIVE */

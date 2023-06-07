@@ -2,7 +2,7 @@
 /* Global */
 @font-face {
     font-family: minecraft;
-       src: url(fonts/minecraft-ten-font/MinecraftTen-VGORe.ttf);
+       src: url(/fonts/minecraft-font/MinecraftBold-nMK1.otf);
    }
    
    *{
@@ -67,6 +67,10 @@
        width: 100%;
        height: 32.333%;
        padding-bottom: 1%;
+   }
+
+   .exception{
+    background-image: none;
    }
    
    .col{
@@ -156,6 +160,15 @@
           display: none;
        }
    
+       p{
+        display: none;
+    }
+   }
+
+   @media(max-height: 800px){
+    p{
+        display: none;
+    }
    }
    
    
