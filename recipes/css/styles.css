@@ -86,13 +86,14 @@
        float: left;
        background-color: #AAAAAA;
       padding-left: 40px;
-      padding-top: 20px;
+      
       border: 2px solid black;
+      border-radius: 15px;
    }
    
    .col-1 *{
       color: black;
-     
+    
    }
    
    .col-1 .ingredients{
@@ -172,9 +173,7 @@
    }
    
    
-   a{
-       text-decoration:none;
-   }
+ 
    
        a:link{
            color: #3b3a3a;
