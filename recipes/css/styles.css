@@ -2,7 +2,7 @@
 /* Global */
 @font-face {
     font-family: minecraft;
-       src: url(/recipes/fonts/minecraft-font/MinecraftBold-nMK1.otf);
+       src: url(/fonts/minecraft-font/MinecraftBold-nMK1.otf);
    }
    
    *{
@@ -17,7 +17,7 @@
    }
    /* BACKGROUND IMG */
    #background-image{
-       background-image: url(/recipes/img/minecraft-screenshot-background.jpg) ;
+       background-image: url(/img/minecraft-screenshot-background.jpg) ;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;

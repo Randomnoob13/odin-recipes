@@ -6,7 +6,7 @@
 body{
   font-size: 16px;
   margin: 0;  
-  background-color: rgb(149, 140, 140);
+  background-color: rgb(209, 209, 209);
   font-family: minecraft, 'Times New Roman', Times, serif;
 }
 
@@ -29,7 +29,7 @@ margin-bottom:  2.5vh;
 }
 
 .row-10{
-height: 10%;
+height: 3%;
 width: 100%;
  border: 1px solid black;
 }
@@ -65,7 +65,7 @@ left: 47.5%;
 
 
 .row-55{
-    height: 50%;
+    height: 57%;
     width: 100%;
     border: 1px solid black;
     position: relative;
@@ -111,7 +111,7 @@ left: 47.5%;
 .col-1-1{
     width: 100%;
     height: 100%;
-    background-image: url(/recipes/img/backgroundMckitchen.jpg);
+    background-image: url(/img/backgroundMckitchen.jpg);
    
     background-repeat: no-repeat;
     background-position: center;
@@ -173,4 +173,12 @@ a:hover{
   
 
 }
+
+@media (max-width: 986px){
+    .col-3 {
+        font-size: 14px;
+    }
+
+}
+
 
